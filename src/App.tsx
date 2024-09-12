@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Background from './components/Background';
 import './components/text.css';
 import WIP from './components/WIP';
+import { Title } from 'chart.js';
  
 
 const App: React.FC = () => {
@@ -15,6 +16,7 @@ const App: React.FC = () => {
         (today.getMonth() === birthDate.getMonth() && today.getDate() < birthDate.getDate()) ? 1 : 0);
 
     return (
+
         <Router>
             <Navbar />
             <Background />
