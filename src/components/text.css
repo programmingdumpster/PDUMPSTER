@@ -1,0 +1,19 @@
+
+.gradiented {
+    background: linear-gradient(to bottom, #ffffff, #9b9a9a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  
+.gray{
+  color: #ffffffb6;
+}
+
+.project-item:hover {
+  text-decoration: underline; /* Podkreślenie po najechaniu */
+}
+
+.project-preview {
+  transition: transform 0.3s ease; /* Animacja dla podglądu */
+}
